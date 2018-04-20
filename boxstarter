@@ -27,23 +27,26 @@ npm install -g npm-windows-upgrade
 cinst -y visualstudiocode
 
 ## Visual Studio 2017
-cinst -y visualstudio2017community
+cinst -y visualstudio2017enterprise
 if (Test-PendingReboot) { Invoke-Reboot }
 
-## Ruby, Go, Python
-cinst -y ruby
-cinst -y ruby.devkit
+## Azure CLI
+cinst azure-cli
 
-cinst -y python2
+## Ruby, Go, Python
+#cinst -y ruby
+#cinst -y ruby.devkit
+
+#cinst -y python2
 
 if (Test-PendingReboot) { Invoke-Reboot }
 
 ## Basics
-cinst -y vlc
+#cinst -y vlc
 cinst -y GoogleChrome
 cinst -y 7zip.install
 cinst -y sysinternals
-cinst -y DotNet3.5
+#cinst -y DotNet3.5
 
 # cinst -y DotNet4.0 -- not needed on windows 8
 # cinst -y DotNet4.5 -- not needed on windows 10

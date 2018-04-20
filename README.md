@@ -13,7 +13,7 @@ A fresh Windows isn't entirely ready for modern development, but all the tools y
 Below, you can see the all the things I need to actually go and work on stuff. If you like all those things, you can automate the installation thanks to the magic of [Boxstarter](http://boxstarter.org/). Simply start PowerShell as Administrator and run:
 
 ```powershell
-START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/felixrieseberg/windows-development-environment/master/boxstarter
+START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/lumaxis/windows-development-environment/master/boxstarter
 ```
 
 ## The Goods
@@ -82,7 +82,7 @@ cinst nodejs.install
 ```
 
 #### NPM
-You just installed Node, which means that you also installed a slightly outdated version of npm. npm@3 is currently in development and offers a bunch of benefits for Windows users. You probably want to upgrade to npm, at least version 5.6.
+You just installed Node, which means that you also installed a slightly outdated version of npm. You probably want to upgrade npm.
 
 ```
 npm install -g npm-windows-upgrade
@@ -103,7 +103,7 @@ cinst Git-Credential-Manager-for-Windows
 cinst github
 ```
 
-If you're using Mercurial or Subversion, install with:
+If you're using Mercugorial or Subversion, install with:
 ```
 cinst subversion
 cinst mercurial
